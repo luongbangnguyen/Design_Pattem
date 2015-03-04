@@ -1,0 +1,36 @@
+HeadFirst: Welcome Decorator Pattern. We’ve heard that you’ve been a bit
+down on yourself lately?
+Decorator: Yes, I know the world sees me as the glamorous design pattern, but
+you know, I’ve got my share of problems just like everyone.
+HeadFirst: Can you perhaps share some of your troubles with us?
+Decorator: Sure. Well, you know I’ve got the power to add flexibility to
+designs, that much is for sure, but I also have a dark side. You see, I can sometimes
+add a lot of small classes to a design and this occasionally results in a design
+that’s less than straightforward for others to understand.
+HeadFirst: Can you give us an example?
+Decorator: Take the Java I/O libraries. These are notoriously difficult for
+people to understand at first. But if they just saw the classes as a set of wrappers
+around an InputStream, life would be much easier.
+HeadFirst: That doesn’t sound so bad. You’re still a great pattern, and
+improving this is just a matter of public education, right?
+Decorator: There’s more, I’m afraid. I’ve got typing problems: you see,
+people sometimes take a piece of client code that relies on specific types and
+introduce decorators without thinking through everything. Now, one great thing
+about me is that you can usually insert decorators transparently and
+the client never has to know it’s dealing with a decorator. But like I
+said, some code is dependent on specific types and when you start introducing
+decorators, boom! Bad things happen.
+HeadFirst: Well, I think everyone understands that you have to be careful
+when inserting decorators, I don’t think this is a reason to be too down on
+yourself.
+Decorator: I know, I try not to be. I also have the problem that introducing
+decorators can increase the complexity of the code needed to instantiate the
+component. Once you’ve got decorators, you’ve got to not only instantiate the
+component, but also wrap it with who knows how many decorators.
+HeadFirst: I’ll be interviewing the Factory and Builder patterns next week – I
+hear they can be very helpful with this?
+Decorator: That’s true; I should talk to those guys more often.
+HeadFirst: Well, we all think you’re a great pattern for creating flexible designs
+and staying true to the Open-Closed Principle, so keep your chin up and think
+positively!
+Decorator: I’ll do my best, thank you.
