@@ -7,7 +7,7 @@ import com.factory.abtract.ingredient.Pepperoni;
 import com.factory.abtract.ingredient.Sauce;
 import com.factory.abtract.ingredient.Veggies;
 
-public class Pizza {
+public abstract class Pizza {
 	private String name;
 	private Dough dough;
 	private Sauce sauce;
@@ -15,6 +15,20 @@ public class Pizza {
 	private Chesse cheese;
 	private Pepperoni pepperoni;
 	private Clams clam;
+	
+	public abstract void prepare();
+	
+	public void bake(){
+		System.out.println("Bake for 25 minute at 350");
+	}
+	
+	public void cut(){
+		System.out.println("Cutting the pizza into diagonal slices");
+	}
+	
+	public void box(){
+		System.out.println("Place pizza in offical PizzaStore box");
+	}
 
 	public String getName() {
 		return name;
