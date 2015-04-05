@@ -1,10 +1,10 @@
 package com.command;
 
-public class LightOnComman implements Command{
+public class LightOnCommand implements Command{
 
 	private Light light;
 	
-	public LightOnComman(Light light) {
+	public LightOnCommand(Light light) {
 		this.light = light;
 	}
 	
